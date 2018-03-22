@@ -1,10 +1,10 @@
-from pyevolve import GSimpleGA, Consts
+from pyevolve import GSimpleGA, Consts, Selectors
 
-from distribution_grid import DistributionGrid
 from populated_area import PopulatedArea
 from power_plant import PowerPlant
 from proposed_distribution_genome import ProposedDistributionGenome
 from test_examples.TestExample2c import TestExample2c
+from ver1.distribution_grid import DistributionGrid
 
 populated_areas = []
 power_plants = []
